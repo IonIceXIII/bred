@@ -96,7 +96,3 @@ a.outlink:hover, a.outlink:active {
 	/*background: url("img/button_sister_server");*/
 	display: inline-block;
 }
-
-#ssbutton:hover {
-	background-image: url("img/bread_icon.png");
-}
