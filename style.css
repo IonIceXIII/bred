@@ -45,12 +45,6 @@ body, html {
   text-align: center;
 }
 
-.credits {
-	font-size:20px;
-	position: fixed;
-  bottom: 20px;
-}
-
 hr {
   margin: auto;
   width: 40%;
@@ -87,6 +81,24 @@ a.outlink {
 a.outlink:hover, a.outlink:active {
   background-color: transparent;
   color: transparent;
+}
+
+.credits {
+	font-size:20px;
+	position: fixed;
+  bottom: 20px;
+}
+
+#LL {
+	bottom:80px;
+}
+
+#II {
+	bottom:50px;
+}
+
+#Gr {
+	bottom:20px;
 }
 
 /*__________*/
