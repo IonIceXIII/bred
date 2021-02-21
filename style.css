@@ -4,7 +4,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url("img/bread_background.png");
+  background-image: url('img/bread_background.png');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -74,6 +74,8 @@ a:hover, a:active {
   color: white;
 }
 
+
+
 /*__________*/
 
 a.outlink {
@@ -96,5 +98,5 @@ a.outlink:hover, a.outlink:active {
 }
 
 #ssbutton:hover {
-	background-image: url("img/button_sister_server_hover");
+	background-image: url("img/bread_icon.png");
 }
