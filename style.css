@@ -1,23 +1,23 @@
 body, html {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .bg {
-	background-image: url('img/background.png');
-	height: 100%;
-	background-position: center;
-	background-size: cover;
+  background-image: url('img/background.png');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 	/*background-repeat: repeat-y;*/
-	position: relative;
-	color: white;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 25px;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
 }
 
 
 .bgimg {
-	position: fixed;
+	position: absolute;
 	//top: 37%;
 	background-image: url("img/bread_transparent.png");
 	/*display: block;*/
@@ -27,62 +27,65 @@ body, html {
 	width: 100%;
 	background-position: center;
 	background-size: 1800px;
-	background-repeat: no-repeat;
-  
+	background-repeat: no-repeat; 
+}
+
+.underbg {
+	width: 100%;
 }
 
 .topleft {
-	position: absolute;
-	top: 0;
-	left: 16px;
+  position: absolute;
+  top: 0;
+  left: 16px;
 }
 .topright {
-	position: absolute;
-	top: 15px; /*0*/
-	right: 16px;
+  position: absolute;
+  top: 15px; /*0*/
+  right: 16px;
 }
 
 .bottomleft {
-	position: absolute;
-	bottom: 0;
-	left: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 16px;
 }
 
 .bottomright {
-	position: absolute;
-	bottom: 0;
-	right: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 16px;
 }
 
 .middle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 hr {
-	margin: auto;
-	width: 40%;
+  margin: auto;
+  width: 40%;
 }
 
 /*__________*/
 
 
 a:link, a:visited {
-	background-color: transparent;
-	color: white;
-	border: 2px solid white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 a:hover, a:active {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
 
 
@@ -96,14 +99,14 @@ a.outlink {
 }
 
 a.outlink:hover, a.outlink:active {
-	background-color: transparent;
-	color: transparent;
+  background-color: transparent;
+  color: transparent;
 }
 
 .credits {
 	font-size:20px;
 	position: fixed;
-	bottom: 20px;
+  bottom: 20px;
 }
 
 #LL {
